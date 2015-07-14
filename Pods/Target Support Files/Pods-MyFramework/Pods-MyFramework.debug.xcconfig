@@ -1,6 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AdobeMobileSDK" "${PODS_ROOT}/Headers/Public/Fabric" "${PODS_ROOT}/Headers/Public/Fabric/Crashlytics" "${PODS_ROOT}/Headers/Public/Fabric/Fabric" "${PODS_ROOT}/Headers/Public/comScore-iOS-SDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/AdobeMobileSDK/AdobeMobileLibrary" "$(PODS_ROOT)/AdobeMobileSDK/AdobeMobileLibrary" "$(PODS_ROOT)/comScore-iOS-SDK/comScore"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AdobeMobileSDK" -isystem "${PODS_ROOT}/Headers/Public/Fabric" -isystem "${PODS_ROOT}/Headers/Public/Fabric/Crashlytics" -isystem "${PODS_ROOT}/Headers/Public/Fabric/Fabric" -isystem "${PODS_ROOT}/Headers/Public/comScore-iOS-SDK"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AdobeMobileSDK.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/comScore_iOS_SDK.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"AdobeMobile" -l"comScore" -l"sqlite3.0" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MyFramework
 PODS_ROOT = ${SRCROOT}/Pods
