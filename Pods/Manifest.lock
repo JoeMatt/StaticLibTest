@@ -1,0 +1,18 @@
+PODS:
+  - AdobeMobileSDK (4.5.4)
+  - comScore-iOS-SDK (3.1502.26)
+  - Fabric/Core (1.3.2)
+  - Fabric/Crashlytics (1.3.2)
+
+DEPENDENCIES:
+  - AdobeMobileSDK
+  - comScore-iOS-SDK
+  - Fabric/Core
+  - Fabric/Crashlytics
+
+SPEC CHECKSUMS:
+  AdobeMobileSDK: 56f2fe56105ce693bd0cbda5e90fe3bae0625d9f
+  comScore-iOS-SDK: fd2acfa4081b64762405fe6b11780ad6aca2fad0
+  Fabric: e5260ce9f0635f49d41b8d21ec7cde2f4b0f7e92
+
+COCOAPODS: 0.38.0.beta.2
