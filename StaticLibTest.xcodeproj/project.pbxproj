@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FBB4B680688010E9331ABF1 /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B98003993AFA0F16F2A538D /* Pods_MyFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5ED0EA741C4A31F7DE81BAAE /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E54B4963B97BBD3322EF40 /* Pods_MyFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		646ACB3BB6642203DF483B69 /* Pods_StaticLibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF882E44FD311BD134C0E2BC /* Pods_StaticLibTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B3DACF7E1B5597B000621BE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DACF7D1B5597B000621BE2 /* main.m */; };
 		B3DACF811B5597B000621BE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DACF801B5597B000621BE2 /* AppDelegate.m */; };
 		B3DACF841B5597B000621BE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DACF831B5597B000621BE2 /* ViewController.m */; };
@@ -27,7 +28,6 @@
 		B3DACFC11B55999400621BE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DACFC01B55999400621BE2 /* CoreMedia.framework */; };
 		B3DACFC41B5599E600621BE2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DACFC21B55999E00621BE2 /* libc++.tbd */; };
 		B3DACFC61B5599F000621BE2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DACFC51B5599F000621BE2 /* libz.tbd */; };
-		F0FB86AE32C16DC481781C08 /* Pods_StaticLibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69EFB784B485BBA531AFC9A /* Pods_StaticLibTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B98003993AFA0F16F2A538D /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DACF791B5597B000621BE2 /* StaticLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DACF7D1B5597B000621BE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3DACF7F1B5597B000621BE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,11 +93,12 @@
 		B3DACFC01B55999400621BE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		B3DACFC21B55999E00621BE2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B3DACFC51B5599F000621BE2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BF882E44FD311BD134C0E2BC /* Pods_StaticLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10504ADAA7BFB6499D608EE /* Pods-StaticLibTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLibTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLibTest/Pods-StaticLibTest.release.xcconfig"; sourceTree = "<group>"; };
 		D64E80F4810BA9318E3A8123 /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E54B4963B97BBD3322EF40 /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68153CAE4B69EA1506D2B94 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 		F659D3548AAF88AD3E08A9F7 /* Pods-StaticLibTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticLibTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticLibTest/Pods-StaticLibTest.debug.xcconfig"; sourceTree = "<group>"; };
-		F69EFB784B485BBA531AFC9A /* Pods_StaticLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				B3DACFC61B5599F000621BE2 /* libz.tbd in Frameworks */,
 				B3DACFC41B5599E600621BE2 /* libc++.tbd in Frameworks */,
 				B3DACFAF1B5597D700621BE2 /* MyFramework.framework in Frameworks */,
-				F0FB86AE32C16DC481781C08 /* Pods_StaticLibTest.framework in Frameworks */,
+				646ACB3BB6642203DF483B69 /* Pods_StaticLibTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 				B3DACFC11B55999400621BE2 /* CoreMedia.framework in Frameworks */,
 				B3DACFBF1B55998700621BE2 /* AVFoundation.framework in Frameworks */,
 				B3DACFBD1B55997E00621BE2 /* MediaPlayer.framework in Frameworks */,
-				0FBB4B680688010E9331ABF1 /* Pods_MyFramework.framework in Frameworks */,
+				5ED0EA741C4A31F7DE81BAAE /* Pods_MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +221,8 @@
 				B3DACFC01B55999400621BE2 /* CoreMedia.framework */,
 				B3DACFBE1B55998700621BE2 /* AVFoundation.framework */,
 				B3DACFBC1B55997E00621BE2 /* MediaPlayer.framework */,
-				0B98003993AFA0F16F2A538D /* Pods_MyFramework.framework */,
-				F69EFB784B485BBA531AFC9A /* Pods_StaticLibTest.framework */,
+				E5E54B4963B97BBD3322EF40 /* Pods_MyFramework.framework */,
+				BF882E44FD311BD134C0E2BC /* Pods_StaticLibTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 				B3DACF771B5597B000621BE2 /* Resources */,
 				B3DACFB41B5597D700621BE2 /* Embed Frameworks */,
 				E29D05D516134FDC0D339FD3 /* Copy Pods Resources */,
-				48E308AB3604700127B0CFAE /* Embed Pods Frameworks */,
+				8365E91B16BC75FCE6DE76C0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,7 +373,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		48E308AB3604700127B0CFAE /* Embed Pods Frameworks */ = {
+		8365E91B16BC75FCE6DE76C0 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
