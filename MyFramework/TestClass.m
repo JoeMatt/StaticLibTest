@@ -13,4 +13,14 @@
 
 @implementation TestClass
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+            // Add for linker test
+        [ADBMobile collectLifecycleData];
+    }
+    return self;
+}
+
 @end

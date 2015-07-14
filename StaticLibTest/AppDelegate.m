@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+@import MyFramework;
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    TestClass *test = [TestClass new];
+    NSLog(@"%@", test);
+    
     return YES;
 }
 
